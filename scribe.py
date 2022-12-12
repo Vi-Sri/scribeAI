@@ -199,7 +199,7 @@ def main():
         """
 
     creds = get_credentials(force=False)
-    chat = get_gpt_chat(email="srinivas.thestallion.vishal@gmail.com", password="$Birth$1995$")
+    chat = get_gpt_chat(email="mail@mail.com", password="password")
 
     try:
         # TODO option that allows user to select the document

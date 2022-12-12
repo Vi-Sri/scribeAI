@@ -102,7 +102,6 @@ def summary():
 if __name__ == "__main__":
     creds = get_credentials(force=False)
     STORE["google_creds"] = creds
-    # CHAT = get_gpt_chat(email="srinivas.thestallion.vishal@gmail.com", password="$Birth$1995$")
     openai.api_key = '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'
     # set_api_key('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')
     folderid = get_folder(creds)
